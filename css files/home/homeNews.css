@@ -1,0 +1,168 @@
+.sezioneContenuto{
+    width:400px;
+    height: 550px;
+    margin:30px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    display: inline-block;
+}
+.imgContenuto{
+    width: 90%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% auto;
+}
+.imgContenuto img{
+    width: 120%;
+}
+.titleContenuto{
+    text-align: start;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    width:90%;
+    margin: 0 auto;
+}
+.descriptionContenuto{
+    text-align: start;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width:90%;
+    height: 150px;
+    margin: 0 auto;
+}
+.buttonContenuto{
+    width: 170px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    margin:5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    color:#F51F1F;
+    margin:0 auto;
+}
+.buttonContenuto:hover{
+    background-color:#f84949;
+    color:white;
+    transform: scale(1.05);
+}
+.buttonContenuto img{
+    width:30px;
+    margin-right: 10px;
+}
+
+#discord{
+    width:70%;
+    height: 430px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin:30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#discordTesti{
+    width:60%;
+    height: 90%;
+}
+#discordImg{
+    width:60%;
+    height: 90%;
+    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    margin-right: 2%;
+    align-items: center;
+    justify-content: center;
+}
+#discordImg img{
+    height: 100%;
+}
+#discordTitle{
+    text-align: start;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    width:90%;
+    margin: 0 auto;
+}
+#discordDescription{
+    text-align: start;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    width:90%;
+    height: 150px;
+    margin: 0 auto;
+    height: 280px;
+}
+#discordButton{
+    width:90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin:0 auto;
+}
+#discordButton div{
+    height: 55px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    margin:5px 0;
+    padding:0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    margin-right: 20px;
+}
+#discordButton div:nth-child(1){
+    width: 170px;
+    color:#5865F2;
+}
+#discordButton div:nth-child(2){
+    width: 100px;
+    color:#7556DF;
+}
+#discordButton div:nth-child(1):hover{
+    background-color:#828dfd;
+    color:white;
+    transform: scale(1.05);
+}
+#discordButton div:nth-child(2):hover{
+    background-color:rgb(159, 167, 250);
+    color:white;
+    transform: scale(1.05);
+}
+#discordButton div img{
+    width:32px;
+    margin-right: 10px;
+}
+
+
+#topicDiscord{
+    width:90%;
+    height: fit-content;
+    margin:0 auto;
+}
