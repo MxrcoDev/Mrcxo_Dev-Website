@@ -65,6 +65,307 @@ body {
   
 }
 
+.modalitaTelefono{
+  width: 0;
+  height: 0px;
+  margin:0px;
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  display: inline-block;
+  color: transparent;
+  font-size: 0px;
+}
 
+.sezioneContenuto{
+  width:400px;
+  height: 550px;
+  margin:30px;
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  display: inline-block;
+}
+.imgContenuto{
+  width: 90%;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% auto;
+}
+.imgContenuto img{
+  width: 120%;
+}
+.titleContenuto{
+  text-align: start;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  width:90%;
+  margin: 0 auto;
+}
+.descriptionContenuto{
+  text-align: start;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:90%;
+  height: 150px;
+  margin: 0 auto;
+}
+.buttonContenuto{
+  width: 170px;
+  height: 40px;
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+  border-radius: 20px;
+  margin:5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  color:#F51F1F;
+  margin:0 auto;
+}
+.buttonContenuto:hover{
+  background-color:#f84949;
+  color:white;
+  transform: scale(1.05);
+}
+.buttonContenuto img{
+  width:30px;
+  margin-right: 10px;
+}
+
+#discord{
+  width:70%;
+  height: 430px;
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  margin:30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+#discordTesti{
+  width:60%;
+  height: 90%;
+}
+#discordImg{
+  width:60%;
+  height: 90%;
+  overflow: hidden;
+  border-radius: 15px;
+  display: flex;
+  margin-right: 2%;
+  align-items: center;
+  justify-content: center;
+}
+#discordImg img{
+  height: 100%;
+}
+#discordTitle{
+  text-align: start;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  width:90%;
+  margin: 0 auto;
+}
+#discordDescription{
+  text-align: start;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  width:90%;
+  height: 150px;
+  margin: 0 auto;
+  height: 280px;
+}
+#discordButton{
+  width:90%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin:0 auto;
+}
+#discordButton div{
+  height: 55px;
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+  border-radius: 20px;
+  margin:5px 0;
+  padding:0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 25px;
+  font-family: 'Bebas Neue', cursive;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  margin-right: 20px;
+}
+#discordButton div:nth-child(1){
+  width: 170px;
+  color:#5865F2;
+}
+#discordButton div:nth-child(2){
+  width: 100px;
+  color:#7556DF;
+}
+#discordButton div:nth-child(1):hover{
+  background-color:#828dfd;
+  color:white;
+  transform: scale(1.05);
+}
+#discordButton div:nth-child(2):hover{
+  background-color:rgb(159, 167, 250);
+  color:white;
+  transform: scale(1.05);
+}
+#discordButton div img{
+  width:32px;
+  margin-right: 10px;
+}
+
+
+#topicDiscord{
+  width:90%;
+  height: fit-content;
+  margin:0 auto;
+}
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: #55d6aa;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.menu {
+  float: left;
+  width: 10%;
+}
+
+.menuicon {
+  width: 4%;
+  padding: 10px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::after {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #444;
+
+  position: absolute;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+.alredyHome::after {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #444;
+
+  position: absolute;
+  width: 100%;
+
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+h1 {
+  color: white;
+}
+
+        
+.divider {								/* minor cosmetics */
+  display: table; 
+  font-size: 24px; 
+  text-align: center; 
+  width: 75%; 						/* divider width */
+  margin: 40px auto;					/* spacing above/below */
+}
+.divider span { display: table-cell; position: relative;}
+.divider span:first-child, .divider span:last-child {
+  width: 50%;
+  top: 13px;							/* adjust vertical align */
+  -moz-background-size: 100% 2px; 	/* line width */
+  background-size: 100% 2px; 			/* line width */
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+}
+.divider span:first-child {				/* color changes in here */
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(white));
+  background-image: -webkit-linear-gradient(180deg, transparent, white);
+  background-image: -moz-linear-gradient(180deg, transparent, white);
+  background-image: -o-linear-gradient(180deg, transparent, white);
+  background-image: linear-gradient(90deg, transparent, white);
+}
+.divider span:nth-child(2) {
+  color: white; padding: 0px 5px; width: auto; white-space: nowrap;
+}
+.divider span:last-child {				/* color changes in here */
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(transparent));
+  background-image: -webkit-linear-gradient(180deg, white, transparent);
+  background-image: -moz-linear-gradient(180deg, white, transparent);
+  background-image: -o-linear-gradient(180deg, white, transparent);
+  background-image: linear-gradient(90deg, white, transparent);
+}
 
 

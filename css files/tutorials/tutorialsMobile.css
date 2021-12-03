@@ -1,0 +1,561 @@
+@media screen and (max-width: 767px) {
+
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    header {
+        background: #55d6aa;
+    }
+    
+    header::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    
+    .menu {
+        float: none;
+        width: 10%;
+    }
+    
+    .menuicon {
+        width: 0%;
+        padding: 0px;
+    }
+    
+    nav {
+        float: none;
+        font-size: 13px;
+
+    }
+    
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    nav li {
+        display: inline-block;
+        margin-left: 30px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+    
+        position: relative;
+    }
+    
+    nav a {
+        color: #444;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    nav a:hover {
+        color: #000;
+    }
+    
+    nav a::after {
+        content: '';
+        display: block;
+        height: 5px;
+        width: 100%;
+        background-color: #444;
+    
+        position: absolute;
+        width: 0%;
+    
+        transition: all ease-in-out 250ms;
+    }
+    
+    .alredyHome::after {
+        content: '';
+        display: block;
+        height: 5px;
+        width: 100%;
+        background-color: #444;
+    
+        position: absolute;
+        width: 100%;
+    
+    }
+    
+    nav a:hover::after {
+        width: 100%;
+    }
+    
+    h1 {
+        color: white;
+    }
+
+    .sezioneContenuto{
+        width: 300px;
+        height: 550px;
+        margin:30px;
+        background-color: white;
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .imgContenuto{
+        width: 90%;
+        height: 250px;
+        overflow: hidden;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5% auto;
+    }
+    .imgContenuto img{
+        width: 120%;
+    }
+    .titleContenuto{
+        text-align: start;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        width:90%;
+        margin: 0 auto;
+    }
+    .descriptionContenuto{
+        text-align: start;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        width:90%;
+        height: 150px;
+        margin: 0 auto;
+    }
+    .buttonContenuto{
+        width: 170px;
+        height: 40px;
+        background-color: white;
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+        border-radius: 20px;
+        margin:5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        color:#F51F1F;
+        margin:0 auto;
+    }
+    .buttonContenuto:hover{
+        background-color:#f84949;
+        color:white;
+        transform: scale(1.05);
+    }
+    .buttonContenuto img{
+        width:30px;
+        margin-right: 10px;
+    }
+    
+    #discord{
+        width: 300px;
+        height: 550px;
+        background-color: white;
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        margin:30px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    #discordTesti{
+        width:60%;
+        height: 90%;
+    }
+    #discordImg{
+        width:60%;
+        height: 90%;
+        overflow: hidden;
+        border-radius: 15px;
+        display: flex;
+        margin-right: 2%;
+        align-items: center;
+    }
+    #discordImg img{
+        width: 0;
+        padding-top: 200px;
+        padding-right: 10px;
+        height: 10%;
+    }
+    #discordTitle{
+        text-align: start;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        width:90%;
+        margin: 0 auto;
+    }
+    #discordDescription{
+        text-align: start;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        width:90%;
+        height: 150px;
+        margin: 0 auto;
+        height: 280px;
+    }
+    #discordButton{
+        padding-top: 100px;
+        width:90%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        margin:0 auto;
+    }
+    #discordButton div{
+        height: 55px;
+        background-color: white;
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+        border-radius: 20px;
+        margin:5px 0;
+        padding:0 20px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 25px;
+        font-family: 'Bebas Neue', cursive;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    #discordButton div:nth-child(1){
+        width: 170px;
+        color:#5865F2;
+    }
+    #discordButton div:nth-child(2){
+        width: 100px;
+        color:#7556DF;
+    }
+    #discordButton div:nth-child(1):hover{
+        background-color:#828dfd;
+        color:white;
+        transform: scale(1.05);
+    }
+    #discordButton div:nth-child(2):hover{
+        background-color:rgb(159, 167, 250);
+        color:white;
+        transform: scale(1.05);
+    }
+    #discordButton div img{
+        width:32px;
+        margin-right: 10px;
+    }
+    
+    
+    #topicDiscord{
+        width:90%;
+        height: fit-content;
+        margin:0 auto;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    @media screen and (max-width: 800px) {
+
+    
+    .modalitaTelefono{
+        width: 90%;
+        height: 60px;
+        margin-left: 5%;
+        background-color: white;
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        display: inline-block;
+        color: red;
+        font-size: 20px;
+    }
+
+
+    .mt1 {
+        margin-top: 20px;
+        margin-left: 7px;
+        font-size: 20px;
+        color: black;
+    }
+
+    .mt2 {
+        margin-top: -10px;
+        margin-left: 7px;
+        font-size: 10px;
+        color: gray;
+        font-style: italic;
+    }
+
+
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    header {
+        background: #55d6aa;
+    }
+    
+    header::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    
+    .menu {
+        float: left;
+        width: 10%;
+    }
+    
+    .menuicon {
+        width: 0%;
+        padding: 0px;
+    }
+    
+    nav {
+        float: none;
+        padding-left: 27%;
+    }
+    
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    nav li {
+        display: inline-block;
+        margin-left: 30px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+    
+        position: relative;
+    }
+    
+    nav a {
+        color: #444;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    nav a:hover {
+        color: #000;
+    }
+    
+    nav a::after {
+        content: '';
+        display: block;
+        height: 5px;
+        width: 100%;
+        background-color: #444;
+    
+        position: absolute;
+        width: 0%;
+    
+        transition: all ease-in-out 250ms;
+    }
+    
+    .alredyHome::after {
+        content: '';
+        display: block;
+        height: 5px;
+        width: 100%;
+        background-color: #444;
+    
+        position: absolute;
+        width: 100%;
+    
+    }
+    
+    nav a:hover::after {
+        width: 100%;
+    }
+    
+    h1 {
+        color: white;
+    }
+
+    .sezioneContenuto{
+        width:300px;
+        height: 550px;
+        margin:30px;
+        background-color: white;
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .imgContenuto{
+        width: 90%;
+        height: 250px;
+        overflow: hidden;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5% auto;
+    }
+    .imgContenuto img{
+        width: 120%;
+    }
+    .titleContenuto{
+        text-align: start;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        width:90%;
+        margin: 0 auto;
+    }
+    .descriptionContenuto{
+        text-align: start;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        width:90%;
+        height: 150px;
+        margin: 0 auto;
+    }
+    .buttonContenuto{
+        width: 170px;
+        height: 40px;
+        background-color: white;
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+        border-radius: 20px;
+        margin:5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        color:#F51F1F;
+        margin:0 auto;
+    }
+    .buttonContenuto:hover{
+        background-color:#f84949;
+        color:white;
+        transform: scale(1.05);
+    }
+    .buttonContenuto img{
+        width:30px;
+        margin-right: 10px;
+    }
+    
+    #discord{
+        width:70%;
+        height: 500px;
+        background-color: white;
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        margin:30px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    #discordTesti{
+        width:60%;
+        height: 90%;
+    }
+    #discordImg{
+        width:60%;
+        height: 90%;
+        overflow: hidden;
+        border-radius: 15px;
+        display: flex;
+        margin-right: 2%;
+        align-items: center;
+        justify-content: center;
+    }
+    #discordImg img{
+        
+        height: 200px;
+    }
+    #discordTitle{
+        text-align: start;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        width:90%;
+        margin: 0 auto;
+    }
+    #discordDescription{
+        text-align: start;
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        width:90%;
+        height: 150px;
+        margin: 0 auto;
+        height: 280px;
+    }
+    #discordButton{
+        padding-top: 70px;
+        width:90%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        margin:0 auto;
+    }
+    #discordButton div{
+        height: 55px;
+        background-color: white;
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+        border-radius: 20px;
+        margin:5px 0;
+        padding:0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 25px;
+        font-family: 'Bebas Neue', cursive;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    #discordButton div:nth-child(1){
+        width: 170px;
+        color:#5865F2;
+    }
+    #discordButton div:nth-child(2){
+        width: 100px;
+        color:#7556DF;
+    }
+    #discordButton div:nth-child(1):hover{
+        background-color:#828dfd;
+        color:white;
+        transform: scale(1.05);
+    }
+    #discordButton div:nth-child(2):hover{
+        background-color:rgb(159, 167, 250);
+        color:white;
+        transform: scale(1.05);
+    }
+    #discordButton div img{
+        width:32px;
+        margin-right: 10px;
+    }
+    
+    
+    #topicDiscord{
+        width:90%;
+        height: fit-content;
+        margin:0 auto;
+    }
+    }
+}
