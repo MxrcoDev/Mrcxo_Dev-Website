@@ -1,0 +1,17 @@
+.Ciao {
+    background-color: #222;
+    color: #ffffff;
+    font-family: 'Work Sans', 'Sans Serif';
+    font-weight: 300;
+}
+
+.Uno {
+    position: fixed;
+    margin-left: 500px;
+}
+
+.Due {
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 500px;
+}

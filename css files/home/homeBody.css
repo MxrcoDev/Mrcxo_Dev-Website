@@ -368,4 +368,7 @@ h1 {
   background-image: linear-gradient(90deg, white, transparent);
 }
 
+.dsIframe {
+  margin-right: 10px;
+}
 

@@ -1,0 +1,34 @@
+body {
+    margin: 0 auto;
+    background: #222;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+.homeTitle {
+    font-style: italic;
+    text-transform: uppercase;
+    color:tomato;
+    font-size: 90px;
+    
+    
+    background-image: linear-gradient(45deg, #845ec2,#d65db1, #ff6f91,#ff9671,#ffc75f, #f9f871); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 300%;
+    animation: titolo 5s infinite alternate;
+    
+}
+
+@keyframes titolo {
+    0% {
+     background-position: left;
+    }
+ 
+   100% {
+     background-position: right;
+   }
+     
+ }
+   
